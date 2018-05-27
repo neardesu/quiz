@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+
+  background-image: url('http://wallpapercraze.com/images/wallpapers/friendisnowsushi-498824.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Coming Soon', cursive;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  height: 80vh;
+   max-width: 100%;
+    overflow-x: hidden;
+}
+
+.animated {
+  color: #ccb63d;
+  text-align: center;
+  font-size: 4em;
+}
+
+#welcome-container, #quiz-container, #endgame-container {
+  /*border: 2px solid red;*/
+  width: 70%;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.scoring {
+  float: right;
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 1.5em;
+}
+
+.card {
+  height: 50%;
+  border: 2px dotted #ccb63d;
+  border-radius: 10px;
+  text-align: center;
+  background-color: transparent;
+  clear: both;
+}
+
+
+.questions, .q-number {
+  color: #E6E354;
+}
+
+.answer-choices {
+  display: block;
+  border: 2px solid white;
+  width: 300px;
+  color: white;
+  margin: auto;
+  font-family: 'Source Code Pro', monospace;
+
+}
+
+.grow {
+  display: ;
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+  background-color: #01a4e7;
+}
+
+.correct-answer {
+  color: #24FE00;
+}
+
+.incorrect-answer {
+  color: #F4303E;
+}
+
+button {
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  background-color: #00ab4d;
+  border-radius: 10px;
+  font-family: 'Coming Soon';
+  font-weight: bolder;
+}
+p {
+  color: white;
+  /* font-weight: 700; */
+  font-family: 'Source Code Pro', monospace;
+}
+h2,b{ color:#00ab4d;}
+.end-score {
+  color:white;
+}
+.cofee.list-unstyled {
+  text-align: center;
+  list-style: none;
+  text-align: center;
+  /*  display: inline; */
+  /* padding:  14% 0 0 0; */
+  position:  fixed;
+  left: 47%;
+  bottom: -1%;
+}
+.cofee .fa {
+    width: 22px;
+    height: 50px;
+    color: #ccb63d;
+  }
+  h6 {display: inline;}
